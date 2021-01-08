@@ -12,14 +12,8 @@ export default {
   props: ['books'],
   data() {
     return {
-      bookTitle: "",
-      bookAuthor: ""
-      bookData: {
-        bookTitle: "",
-        bookAuthor: "",
-        finishedReading: false,
-        ownership: []
-      }
+      bookTitle: '',
+      bookAuthor: '',
     };
   },
   methods: {
